@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+#Main {
+    color: white;
+}
+
+#operatorName {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    background-color: rgba(128, 128, 128, .7);
+
+    width: 300px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#operatorContainer {
+    position: relative;
+}
+
+h3 {
+    color: gray;
+    font-style: italic;
+}
+
+#attacker {
+    background-color: rgb(204, 132, 0);
+}
+
+#defender {
+    background-color: rgb(0, 0, 204);
+}
+
+button {
+    height: 75px;
+    width: 150px;
+    margin: 10px;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 5%;
+    border-color: transparent;
+    
+}
+
+#icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-325%, 342%);
+    height: 48px;
+    z-index: 500;
+}
+
+#disclaimer {
+    text-align: center;
+    font-size: 11px;
+    color:gray;
+    font-style: italic;
+}
+
+.info {
+    color:white;
+    font-style: normal;
+}
