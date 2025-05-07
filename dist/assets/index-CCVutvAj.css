@@ -1,0 +1,1 @@
+html,body{height:100%;margin:0;padding:0}#greetingLabels{position:absolute;top:30%;left:7%;padding:0;transform:translateY(-50%);animation:fadeIn 3s,slideDown 2s}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes slideDown{0%{top:-50%}to{top:30%}}#greetingLabels h1{position:relative;color:green;font-size:10em}
