@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "three": "^0.176.0"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeaganAnd/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeaganAnd/Portfolio/issues"
+  },
+  "homepage": "https://github.com/KeaganAnd/Portfolio#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
