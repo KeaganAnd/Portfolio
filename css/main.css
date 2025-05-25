@@ -1,18 +1,13 @@
 
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
 }
 
-#greetingLabels {
-    padding: 7%;
-    animation: fadeIn 3s, slideDown 2s;
-    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
-}
+
 
 canvas {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
@@ -28,11 +23,34 @@ canvas {
     to {transform: translate(0, 0%);}
 }
 
-
+#greetingLabels {
+    padding: 7%;
+    animation: fadeIn 3s, slideDown 2s;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+    width: 80%;
+    padding-top: 400px;
+}
 
 #greetingLabels h1 {
     color: #F6AE2D;
     font-size: 10em;
     text-shadow: -3px -2px #F26419;
+    margin: 0;
+    width: 80%;
     
+}
+
+#landingPage {
+    height: 100vh;
+}
+
+@media (max-width: 916px) {
+    #greetingLabels {
+        padding-top: 0%;
+        width: 80%;
+        text-align: justify;
+        font-size: 10px;
+        transform: translatey(50%);
+    }
+
 }
